@@ -1,0 +1,96 @@
+import type { ExperienceItem } from '../types';
+
+export const experienceData: ExperienceItem[] = [
+  {
+    id: 'eSparkBiz',
+    role: 'Junior Software Developer',
+    company: 'eSparkBiz Technologies Pvt. Ltd.',
+    location: 'Ahmedabad, Gujarat, India',
+    period: 'Jan 2026 – Present',
+    type: 'Employment',
+    isCurrent: true,
+    badge: 'Industry Experience',
+    description:
+      'Contributing to both frontend and backend development across production web systems, with direct engineering involvement on a live enterprise CRM project.',
+    contributions: [
+      'Engineered and maintained modular, reusable user interface components using React.js and TypeScript for key CRM customer management views.',
+      'Collaborated on designing and integrating resilient RESTful backend endpoints built with NestJS and PostgreSQL.',
+      'Implemented data validation, route protection, and structured API error handling for client-facing workflows.',
+      'Participated in code reviews, resolved UI/UX defects, and maintained consistent codebase documentation.',
+      '[Placeholder: Add any specific CRM module, microservice, or integration you personally developed]',
+    ],
+    technologies: ['React.js', 'TypeScript', 'NestJS', 'PostgreSQL', 'Tailwind CSS', 'REST APIs', 'Git'],
+    note: 'Note: Dates, specific team assignments, and client project metrics are placeholders to be adapted to your official resume records.',
+  },
+  {
+    id: 'tatvasoft',
+    role: 'Software Development Trainee',
+    company: 'Tatvasoft',
+    location: 'Ahmedabad, Gujarat, India',
+    period: 'June 2025 – July 2025',
+    type: 'Employment',
+    isCurrent: false,
+    badge: 'Full-Stack Development',
+    description:
+      'Completed hands-on full-stack development training, building web application features using Angular, .NET, and PostgreSQL.',
+    contributions: [
+      'Developed responsive and reusable frontend components using Angular and TypeScript.',
+      'Gained practical experience building backend functionality using .NET and C#.',
+      'Worked with PostgreSQL to understand relational data management and database operations.',
+      'Learned to integrate RESTful APIs across frontend and backend application layers.',
+    ],
+    technologies: [
+      'Angular',
+      'TypeScript',
+      '.NET',
+      'C#',
+      'PostgreSQL',
+      'REST APIs',
+    ],
+    note: 'Training focused on full-stack web development using Angular, .NET, and PostgreSQL.',
+  },
+  {
+    id: 'intel-ai-manufacturing',
+    role: 'AI/ML Intern',
+    company: 'Intel AI for Manufacturing',
+    location: 'Ahmedabad, Gujarat, India',
+    period: 'March 2025 – June 2025',
+    type: 'Employment',
+    isCurrent: false,
+    badge: 'Artificial Intelligence',
+    description:
+      'Developed an AI-powered packaging defect detection system using Python and YOLOv8 to support real-time defect identification in manufacturing.',
+    contributions: [
+      'Applied Python and machine learning techniques to address manufacturing-related challenges.',
+      'Implemented YOLOv8-based object detection to identify packaging defects.',
+      'Explored computer vision techniques for automated visual quality inspection.',
+      'Worked on an AI-based approach to improve packaging defect identification workflows.',
+    ],
+    technologies: [
+      'Python',
+      'Machine Learning',
+      'Computer Vision',
+      'YOLOv8',
+      'Object Detection',
+    ],
+    note: 'AI for Manufacturing internship focused on machine learning and packaging defect detection.',
+  },
+  {
+    id: 'education',
+    role: 'Bachelor of Engineering in Information Technology',
+    company: 'Government Engineering College Bhavnagar',
+    location: 'Bhavnagar, Gujarat, India',
+    period: '2022 – 2026',
+    type: 'Education',
+    badge: 'Academic Foundation',
+    description:
+      'Completed comprehensive coursework covering software engineering principles, core computer science concepts, and practical web application development.',
+    contributions: [  
+      'Foundational coursework in Data Structures & Algorithms, Object-Oriented Programming, and Database Management Systems.',
+      'Hands-on academic projects developing full-stack database-backed applications and responsive web interfaces.',
+      'Collaborated on technical laboratory assignments and peer programming problem sets.',
+    ],
+    technologies: ['Data Structures', 'Database Systems', 'Software Engineering', 'Web Development', 'OOP'],
+    note: 'Note: Replace college title, degree name, and graduation year with your exact academic details.',
+  },
+];
