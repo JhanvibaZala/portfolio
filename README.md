@@ -55,13 +55,13 @@ Ensure Node.js and npm are installed.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/JhanvibaZala/jhanvi-portfolio.git
+git clone https://github.com/JhanvibaZala/portfolio.git
 ```
 
 ### 2. Navigate to the Project
 
 ```bash
-cd jhanvi-portfolio
+cd portfolio
 ```
 
 ### 3. Install Dependencies
