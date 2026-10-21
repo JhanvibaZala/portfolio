@@ -1,75 +1,119 @@
-# React + TypeScript + Vite
+# Jhanviba Zala | Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and interactive personal portfolio showcasing my technical skills, professional experience, and projects as a **React.js and Full-Stack Developer**.
 
-Currently, two official plugins are available:
+Built with a focus on clean design, reusable components, smooth animations, and responsive user experiences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Modern UI:** Premium dark theme with purple accents and subtle gradients.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Smooth Animations:** Interactive transitions and scroll-based animations using Motion for React.
+- **Project Showcase:** Featured projects with descriptions, technologies, GitHub repositories, and live demo links where available.
+- **Professional Experience:** Highlights my development experience, internships, and technical contributions.
+- **Technical Skills:** Organized overview of frontend, backend, database, and development tools.
+- **Resume Download:** Direct access to my professional resume in PDF format.
+- **Contact Integration:** Quick access to GitHub, LinkedIn, and email.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+| Category | Technologies |
+|---|---|
+| Frontend | React.js, TypeScript |
+| Styling | Tailwind CSS |
+| Animations | Motion for React |
+| Icons | Lucide React |
+| Build Tool | Vite |
+| Version Control | Git, GitHub |
+| Deployment | Vercel |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📂 Project Structure
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```text
+jhanvi-portfolio/
+├── public/
+│   └── resume.pdf
+├── src/
+│   ├── components/
+│   ├── sections/
+│   ├── data/
+│   ├── types/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── package.json
+├── vite.config.ts
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Prerequisites
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Ensure Node.js and npm are installed.
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/JhanvibaZala/portfolio.git
 ```
+
+### 2. Navigate to the Project
+
+```bash
+cd portfolio
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+### 5. Build for Production
+
+```bash
+npm run build
+```
+
+## 💼 Featured Projects
+
+### Taskora
+A collaborative task and project management application featuring workspace management, authentication, and task organization.
+
+### PiggyPilot
+A personal finance tracker designed to manage income, expenses, and financial activities.
+
+### TiffinWallah
+A full-stack food ordering application focused on food discovery and service management.
+
+### Wanderlust
+A web application for exploring and managing travel accommodation listings.
+
+### EventHub
+An event management web application.
+
+## 👩‍💻 About Me
+
+I'm **Jhanviba Zala**, a Full-Stack Developer passionate about building responsive, scalable, and user-friendly web applications.
+
+My experience includes working with React.js, TypeScript, Node.js, NestJS, and relational databases. I enjoy transforming ideas into functional applications and continuously improving my development skills.
+
+## 📬 Connect With Me
+
+- **GitHub:** https://github.com/JhanvibaZala
+- **LinkedIn:** https://www.linkedin.com/in/jhanviba-zala-cte-gecbvn-it-507061283
+- **Email:** jhanvibazala3@gmail.com
+- **Portfolio:** https://portfolio-iixb00xjw-jhanvibazalas-projects.vercel.app/
+
+---
+
+⭐ If you find this portfolio interesting, feel free to explore the repository!
